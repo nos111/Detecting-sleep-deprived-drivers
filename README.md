@@ -1,4 +1,4 @@
-<h1><span style="font-weight: 400;">DETECTING SLEEPING DRIVERS</span></h1>
+<p><span style="font-weight: 400;">DETECTING SLEEPING DRIVERS</span></p>
 <h2><span style="font-weight: 400;">By</span></h2>
 <h2><span style="font-weight: 400;">Nour Din Saffour, Yann Regev, Ilmari Kaskia</span></h2>
 <h1><span style="font-weight: 400;">Introduction </span></h1>
@@ -70,24 +70,26 @@
 <h2><span style="font-weight: 400;">Detecting the state of the eyes:</span></h2>
 <p><span style="font-weight: 400;">Now that we have the picture of the eyes we needed to detect the state of the eyes. We used the skills we learned from the labs. We obtained a usable picture via the following steps:</span></p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Converted the image to a grey image.</span><span style="font-weight: 400;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes2.jpg?raw=true" alt="" width="816" height="233" /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Converted the image to a grey image.</span></li>
 </ul>
+<p><span style="font-weight: 400;">A grey image with the eyes only from the program</span><span style="font-weight: 400;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes2.jpg?raw=true" alt="" width="816" height="233" /></span></p>
 <h1>&nbsp;</h1>
-<p><span style="font-weight: 400;">A grey image with the eyes only from the program</span></p>
+<p>&nbsp;</p>
 <ul>
-<li style="font-weight: 400;"><span style="font-weight: 400;">Measured the threshold we needed to get only two BLOBs. After that we converted the image to a black and white image using the threshold we measured.</span><span style="font-weight: 400;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes3.jpg?raw=true" alt="" width="528" height="128" /></span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Measured the threshold we needed to get only two BLOBs. After that we converted the image to a black and white image using the threshold we measured.</span></li>
 </ul>
-<p><span style="font-weight: 400;">A black and white image from the program</span></p>
+<p><span style="font-weight: 400;">A black and white image from the program</span><span style="font-weight: 400;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes3.jpg?raw=true" alt="" width="528" height="128" /></span></p>
+<p>&nbsp;</p>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Complemented the image to flip the colors</span></li>
 </ul>
-<p><span style="font-weight: 400;">The black and white image after complementing the colors</span></p>
+<p>The black and white image after complementing the colors</p>
 <h1><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes4.jpg?raw=true" alt="" width="617" height="233" /></h1>
 <ul>
 <li style="font-weight: 400;"><span style="font-weight: 400;">Applied the morphological closing filter using a disk shape.</span></li>
 </ul>
 <p><span style="font-weight: 400;">A final phase photo from the program with the eyes open</span></p>
-<h1><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes5.jpg?raw=true" alt="" width="528" height="178" /></h1>
+<h1 style="text-align: center;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes5.jpg?raw=true" alt="" width="528" height="178" /></h1>
 <p><span style="font-weight: 400;">A final phase photo from the program with the eyes closed</span></p>
 <p><span style="font-weight: 400;"><img src="https://github.com/nos111/Detecting-sleep-deprived-drivers/blob/master/photos/eyes6.jpg?raw=true" alt="" width="587" height="168" /></span></p>
 <p><span style="font-weight: 400;">Now that we have everything set up we will measure the form factor of the two shapes and depending on the values we will get the program will decide whether the eyes are open or closed.</span></p>
