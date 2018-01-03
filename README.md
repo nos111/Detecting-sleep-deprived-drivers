@@ -1,4 +1,4 @@
-<p style="text-align: left;"><span style="font-weight: 400;">DETECTING SLEEPING DRIVERS</span></p>
+<h1 style="text-align: left;"><span style="font-weight: 400;">DETECTING SLEEPING DRIVERS</span></h1>
 <h2 style="text-align: left;"><span style="font-weight: 400;">By</span></h2>
 <h2 style="text-align: left;"><span style="font-weight: 400;">Nour Din Saffour, Yann Regev, Ilmari Kaskia</span></h2>
 <h1 style="text-align: left;"><span style="font-weight: 400;">Introduction </span></h1>
